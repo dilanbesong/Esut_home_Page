@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./styles/main.css"/>
+    <link rel="stylesheet" href="./styles/middle_side.css"/>
+    <link rel="stylesheet" href="./styles/post_card.css"/>
+    <link rel="stylesheet" href="./styles/profile.css"/>
+    <link rel="stylesheet" href="./styles/view_friends.css"/>
+    <link rel="stylesheet" href="./styles/notification.css"/>
+    <link rel="stylesheet" href="./styles/payment.css"/>
+    <link rel="stylesheet" href="./styles/comment.css"/>
+    <link rel="stylesheet" href="./styles/friendlist.css"/>
+    <link rel="stylesheet" href="./styles/createpost.css"/>
+    <link rel="stylesheet" href="./styles/edit.css"/>
+    <link rel="stylesheet" href="./styles/rightside.css"/>
+    <link rel="stylesheet" href="./styles/img_map_slide.css"/>
+    <link rel="stylesheet" href="./styles/search.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="script.js" defer></script>
+    <title>CEE Home Page !!!</title>
+  </head>
+  <body>
+    <!--------------------------------------- home navigation bar! ----------------------------------------->
+    <nav class="homeNavBar">
+      <div class="logo">
+        <img src="esutlogo.jpg" alt="esutlogo" />
+        <span>CEE @INFO </span>
+      </div>
+      <!-- <div class="search">
+        <span>&#x1f50E</span>
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="search" placeholder="search..." />
+      </div> -->
+      <div class="nav_user">
+         <span>Dilan Besong</span>
+         <img src="esutlogo.jpg" alt="myprofile">
+      </div>
+    </nav>
+
+    <!--------------------------------------- main section goes here!---------------------------------------->
+    <main>
+      <section class="left_side">
+        <!-- <a href="#middle" onclick="toggleCard(event)">middle</a> -->
+         <p>
+
+          <a href="#All_posts">
+            <i class="fa fa-home" aria-hidden="true"></i>
+             <span>Home</span>
+          </a>
+
+          <a href="#View_profile">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <span>Profile</span>
+          </a>
+
+          <a href="#See_notification" class="side_notification" data-numOfNotications="99+">
+            <i class="fa fa-bell" aria-hidden="true"></i>
+            <span>Notifications</span>
+          </a>
+
+          <a href="#Make_payments">
+            <i class="fa fa-credit-card" aria-hidden="true"></i>
+            <span>Payments</span>
+          </a>
+
+          <a href="#">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span>Location</span>
+          </a>
+
+          <a href="#">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <span>Classroom</span>
+          </a>
+
+          <a href="#">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <span>Find student</span>
+          </a>
+
+         </p>
+      </section>
+
+       <section class="middle_side" id="middle">
+        
+          <div class="All_posts" id="All_posts">
+            <header class="status_section">
+              <strong>Status</strong>
+              <div class="all_status">
+                <div class="status_card" data-level="+"></div>
+                <div class="status_card" data-level="100lv"></div>
+                <div class="status_card" data-level="200lv"></div>
+                <div class="status_card" data-level="300lv"></div>
+                <div class="status_card" data-level="400lv"></div>
+                <div class="status_card" data-level="500lv"></div>
+              </div>
+              <div class="add_post">
+                <p><img src="esutlogo.jpg" alt="esutlogo" /></p>
+                <p>
+                  <input
+                    type="text"
+                    placeholder="Catergorically search or use keyword"
+                  />
+                </p>
+                <p>
+                  <select name="" id="">
+                    <option value="100">100l</option>
+                    <option value="200">200l</option>
+                    <option value="300">300l</option>
+                    <option value="400">400l</option>
+                    <option value="500">500l</option>
+                  </select>
+                </p>
+              </div>
+            </header>
+            <section class="all_post">
+              <article class="postCard">
+                <div class="suggestions">
+                    <article class="sugg_card">
+                        <div class="sugg_img">
+                           <img src="esutlogo.jpg" alt="esutlogo"/>
+                           <p>Dilan Besong</p>
+                           <p>3k mutual mates</p>
+                        </div>
+                         <div class="sugg_btns">
+                            <button>Accept</button>
+                            <button>Decline</button>
+                         </div>
+                    </article>  
+
+                     <article class="sugg_card">
+                        <div class="sugg_img">
+                           <img src="esutlogo.jpg" alt="esutlogo"/>
+                           <p>Dilan Besong</p>
+                            <p>2 mutual mates</p>
+                        </div>
+                         <div class="sugg_btns">
+                            <button>Accept</button>
+                            <button>Decline</button>
+                         </div>
+                    </article> 
+
+                     <article class="sugg_card">
+                        <div class="sugg_img">
+                           <img src="esutlogo.jpg" alt="esutlogo"/>
+                           <p>Dilan Besong</p>
+                           <p>1 mutual mates</p>
+                        </div>
+                         <div class="sugg_btns">
+                            <button>Accept</button>
+                            <button>Decline</button>
+                         </div>
+                    </article> 
+
+                     <article class="sugg_card">
+                        <div class="sugg_img">
+                           <img src="esutlogo.jpg" alt="esutlogo"/>
+                           <p>Dilan Besong</p>
+                           <p>1 mutual mates</p>
+                        </div>
+                         <div class="sugg_btns">
+                            <button>Accept</button>
+                            <button>Decline</button>
+                         </div>
+                    </article> 
+                    
+                </div>
+                <div class="mainCard">
+                  <header class="cardheader">
+                    <div class="user_info">
+                      <img src="esutlogo.jpg" alt="esutlogo" />
+                       <div class="username_and_date"> 
+                       <span>@ DilanBesong</span>
+                       <span>8 march</span> 
+                    </div>
+                    </div>
+                  </header>
+                  <p id="postText">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis mollitia modi fuga assumenda, omnis rerum dicta nam
+                    aspernatur blanditiis? Laborum eum placeat molestiae magnam
+                    quos praesentium in ex, eos facilis.
+                  </p>
+                  <div class="fileGrid">
+                      <div>1</div>
+                      <div>2</div>
+                  </div>
+
+                 <div class="number_of_comments">2.2K Comments</div>
+                  <section class="post_reactions">
+                   <span>&#10084 Love 100K</span>
+                   <span>&#128172 Comment</span>
+                   <span> &#x1f441 100k views </span>
+                 </section>
+
+                </div>
+              </article>
+
+               <article class="postCard">
+                <div class="suggestions">suggestions</div>
+                <div class="mainCard">
+                  <header class="cardheader">
+                    <div class="user_info">
+                      <img src="esutlogo.jpg" alt="esutlogo" />
+                       <div class="username_and_date"> 
+                       <span>@ DilanBesong</span>
+                       <span>8 march</span> 
+                    </div>
+                    </div>
+                  </header>
+                  <p id="postText">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis mollitia modi fuga assumenda, omnis rerum dicta nam
+                    aspernatur blanditiis? Laborum eum placeat molestiae magnam
+                    quos praesentium in ex, eos facilis.
+                  </p>
+                  <div class="fileGrid filegrid_5">
+                      <div>1</div>
+                      <div>2</div>
+                      <div>3</div>
+                      <div>4</div>
+                      <div>5</div>
+                  </div>
+                  <div class="number_of_comments">2.2K Comments</div>
+                  <section class="post_reactions">
+                   <span>&#10084 Love 100K</span>
+                   <span>&#128172 Comment</span>
+                   <span> &#x1f441 100k views </span>
+                 </section>
+                </div>
+              </article>
+               <article class="postCard">
+                <div class="suggestions">suggestions</div>
+                <div class="mainCard">
+                  <header class="cardheader">
+                    <div class="user_info">
+                      <img src="esutlogo.jpg" alt="esutlogo" />
+                       <div class="username_and_date"> 
+                       <span>@ DilanBesong</span>
+                       <span>8 march</span> 
+                    </div>
+                    </div>
+                  </header>
+                  <p id="postText">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis mollitia modi fuga assumenda, omnis rerum dicta nam
+                    aspernatur blanditiis? Laborum eum placeat molestiae magnam
+                    quos praesentium in ex, eos facilis.
+                  </p>
+                  <div class="fileGrid">
+                      <div>1</div>
+                      <div>2</div>
+                      <div>3</div>
+                      <div>4</div>
+                  </div>
+                  <div class="number_of_comments">2.2K Comments</div>
+                  <section class="post_reactions">
+                   <span>&#10084 Love 100K</span>
+                   <span>&#128172 Comment</span>
+                   <span> &#x1f441 100k views </span>
+                 </section>
+                </div>
+              </article>
+
+
+               <article class="postCard">
+                <div class="suggestions">suggestions</div>
+                <div class="mainCard">
+                  <header class="cardheader">
+                    <div class="user_info">
+                      <img src="esutlogo.jpg" alt="esutlogo" />
+                      <span>@DilanBesong</span>
+                    </div>
+                  </header>
+                  <p id="postText">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis mollitia modi fuga assumenda, omnis rerum dicta nam
+                    aspernatur blanditiis? Laborum eum placeat molestiae magnam
+                    quos praesentium in ex, eos facilis.
+                  </p>
+                  <div class="fileGrid filegrid_3">
+                      <div>1</div>
+                      <div>2</div>
+                      <div>3</div>
+                  </div>
+                  <div class="number_of_comments">2.2K Comments</div>
+                  <section class="post_reactions">
+                   <span>&#10084 Love 100K</span>
+                   <span>&#128172 Comment</span>
+                   <span> &#x1f441 100k views </span>
+                 </section>
+                </div>
+              </article>
+
+               <article class="postCard">
+                <div class="suggestions">suggestions</div>
+                <div class="mainCard">
+                  <header class="cardheader">
+                    <div class="user_info">
+                      <img src="esutlogo.jpg" alt="esutlogo" />
+                      <span>@DilanBesong</span>
+                    </div>
+                  </header>
+                  <p id="postText">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis mollitia modi fuga assumenda, omnis rerum dicta nam
+                    aspernatur blanditiis? Laborum eum placeat molestiae magnam
+                    quos praesentium in ex, eos facilis.
+                  </p>
+                  <div class="fileGrid filegrid_1">
+                      <div>1</div>
+                  </div>
+                  <div class="number_of_comments">2.2K Comments</div>
+                  <section class="post_reactions">
+                   <span>&#10084 Love 100K</span>
+                   <span>&#128172 Comment</span>
+                   <span> &#x1f441 100k views </span>
+                 </section>
+                </div>
+              </article>
+            </section>
+          </div>
+ 
+
+
+
+
+
+
+
+
+
+          
+
+           <!-- <div class="View_profile" id="View_profile">
+             <div class="profile_header">
+                 <div class="background_profile">
+                    <p class="profile_img">
+                      <img src="esutlogo.jpg" alt="user_profile.jpg"/>
+                      <i class="fa fa-camera" aria-hidden="true"></i>
+                    </p>
+                 </div>
+              </div>
+                <div class="user_name">
+                     <strong>Dilan Besong</strong>
+                     <p>besongdilan@gmail.com</p>
+                 </div>
+                 <div class="checkup_btn">
+                    <button>add</button>
+                    <button>edit &#9998</button>
+                    <button> local <i class="fa fa-map-marker" aria-hidden="true"></i> </button>
+                 </div>
+                 <ul class="info_list">
+                   <li><i class="fa fa-code" aria-hidden="true"></i> Reg No 2019030187292</li>
+                   <li><i class="fa fa-graduation-cap" aria-hidden="true"></i>Department of computer engineering</li>
+                   <li><i class="fa fa-users" aria-hidden="true"></i>My Friends</li>
+                 </ul>
+                 <div class="profile_pagination">
+                   <span class="span_underline">Post</span>
+                   <span>Receipts</span>
+                 </div>
+
+
+     <div class="all_posts">
+          <article class="postCard">
+                <div class="suggestions">suggestions</div>
+                <div class="mainCard">
+                  <header class="cardheader">
+                    <div class="user_info">
+                      <img src="esutlogo.jpg" alt="esutlogo" />
+                      <span>@DilanBesong</span>
+                    </div>
+                  </header>
+                  <p id="postText">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis mollitia modi fuga assumenda, omnis rerum dicta nam
+                    aspernatur blanditiis? Laborum eum placeat molestiae magnam
+                    quos praesentium in ex, eos facilis.
+                  </p>
+                  <div class="fileGrid filegrid_1">
+                      <div>1</div>
+                  </div>
+                  <div class="number_of_comments">2.2K Comments</div>
+                  <section class="post_reactions">
+                   <span>&#10084 Love 100K</span>
+                   <span>&#128172 Comment</span>
+                   <span> &#x1f441 100k views </span>
+                 </section>
+                </div>
+              </article>
+
+              <article class="postCard">
+                <div class="suggestions">suggestions</div>
+                <div class="mainCard">
+                  <header class="cardheader">
+                    <div class="user_info">
+                      <img src="esutlogo.jpg" alt="esutlogo" />
+                      <span>@DilanBesong</span>
+                    </div>
+                  </header>
+                  <p id="postText">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis mollitia modi fuga assumenda, omnis rerum dicta nam
+                    aspernatur blanditiis? Laborum eum placeat molestiae magnam
+                    quos praesentium in ex, eos facilis.
+                  </p>
+                  <div class="fileGrid filegrid_1">
+                      <div>1</div>
+                  </div>
+                  <div class="number_of_comments">2.2K Comments</div>
+                  <section class="post_reactions">
+                   <span>&#10084 Love 100K</span>
+                   <span>&#128172 Comment</span>
+                   <span> &#x1f441 100k views </span>
+                 </section>
+                </div>
+              </article>
+         </div>
+
+     </div>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- <div class="View_friends">
+            <div class="Friend_chat">
+              <nav class="friend_nav">
+                <p>
+                    <img src="esutlogo.jpg" alt="esutlogo"/>
+                    <span>Dilan</span>
+                </p>
+                <p>typing...</p>
+
+                <p> <input type="search" placeholder="Search chat &#x1f50E..."/> </p>
+              </nav>
+              <div class="all_chats">
+                  
+               <article class="msg_container">
+                  <img src="esutlogo.jpg" alt="user_name"/>
+                  <div class="msg_grid"> 
+                    <a href="https://www.google.com">https://www.google.com</a>
+                  </div>
+                  <span class="date">Tuesday 7:30pm 2022</span>
+               </article>
+
+                <article class="msg_container msg_container_right">
+                  <img src="esutlogo.jpg" alt="user_name"/>
+                  <div class="msg_grid">Whats happening here</div>
+                  <span class="date">Tuesday 7:30pm 2022</span>
+               </article> 
+               
+               <article class="msg_container">
+                  <img src="esutlogo.jpg" alt="user_name"/>
+                  <div class="msg_grid">hello how are you hope are doing very well</div>
+                  <span class="date">Tuesday 7:30pm 2022</span>
+               </article>
+            </div>
+
+              <div class="msg_input_control">
+                <span><input type="search" id="messageInput" placeholder="type message ..."/></span>
+                <span id="voice_mail"><i class=" fa fa-microphone" aria-hidden="true"></i></span>
+                <span id="sendmsgBtn"><i class=" fa fa-paper-plane" aria-hidden="true"></i></span>
+              </div>
+            </div> 
+
+
+
+
+
+              <div class="Friend_list">
+               <header class="friendList_nav">
+                  <div>
+                    <i class="fa fa-search"></i>
+                     <input type="search" placeholder="find friend to chat with"/>
+                  </div>
+               </header>
+              <div class="chatList">
+                 <article class="friendCard">
+                     <div class="friendProfile">
+                         <img src="esutlogo.jpg" alt="esutlogo">
+                         <div class="name_msg">
+                             <span>Dilan Besong </span>
+                             <span>Good morning everyone hope ...</span>
+                         </div>
+                     </div>
+                     <div class="timer_new_msg">
+                        <span>7:30am</span>
+                        <span class="new_msg_dot"></span>
+                     </div>
+                 </article>
+
+                  <article class="friendCard">
+                     <div class="friendProfile">
+                         <img src="esutlogo.jpg" alt="esutlogo">
+                         <div class="name_msg">
+                             <span>Dilan Besong Tekoh</span>
+                             <span>Good morning everyone hope ...</span>
+                         </div>
+                     </div>
+                     <div class="timer_new_msg">
+                        <span>7:30am</span>
+                        <span class="new_msg_dot"></span>
+                     </div>
+                 </article>
+
+                  <article class="friendCard">
+                     <div class="friendProfile">
+                         <img src="esutlogo.jpg" alt="esutlogo">
+                         <div class="name_msg">
+                             <span>Dilan Tekoh</span>
+                             <span>Good morning everyone hope ...</span>
+                         </div>
+                     </div>
+                     <div class="timer_new_msg">
+                        <span>7:30am</span>
+                        <span class="new_msg_dot"></span>
+                     </div>
+                 </article>
+              </div>
+            </div> 
+         </div>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- <div class="See_notification" id="See_notification">
+             <nav class="notify_nav">
+               <h4> <i class="fa fa-bell" aria-hidden="true"></i> Notifications </h4>
+              <p><input type="search" placeholder="find info notification..."/></p>
+             </nav>
+             <div class="all_notifications">
+                 <article class="notify_card not_open">
+                    <header class="notify_header">
+                       <div>
+                          <img src="esutlogo.jpg" alt="esutlogo">
+                          <span>Esut!!</span>
+                       </div>
+                       <span class="x-close">&times;</span>
+                    </header>
+                    <div class="content">
+                       <strong><i class="fa fa-bell" aria-hidden="true"></i></strong>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Accusantium mollitia totam culpa voluptatibus qui suscipit natus esse,
+                          laboriosam iure corrupti vero adipisci. Provident mollitia.
+                         </p>
+                    </div>
+                    <span class="timeAgo">just now</span>
+                 </article>
+
+                   <article class="notify_card">
+                    <header class="notify_header">
+                       <div>
+                          <img src="esutlogo.jpg" alt="esutlogo">
+                          <span>Esut!!</span>
+                       </div>
+                       <span class="x-close">&times;</span>
+                    </header>
+                    <div class="content">
+                       <strong><i class="fa fa-bell" aria-hidden="true"></i></strong>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Accusantium mollitia totam culpa voluptatibus qui suscipit natus esse,
+                          laboriosam iure corrupti vero adipisci. Provident mollitia, 
+                        </p>
+                    </div>
+                    <span class="timeAgo">just now</span>
+                 </article>
+
+                 
+             </div>
+          </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- <div class="Make_payments" id="Make_payments">
+             <form class="payment_card"> 
+              <h3>Pay Departmental fees</h3>      
+                <p> 
+                  <label for="">Username:</label>
+                  <input type="text" readonly value="Dilan Besong"/>
+                  <i class="fa fa-user-o" aria-hidden="true"></i>
+                </p>
+                
+                <p> 
+                  <label for="">Reg number</label>
+                  <input type="text" readonly value="2019030187292"/>
+                   <i class="fa fa-code" aria-hidden="true"></i>
+                </p>
+                
+                <p>
+                  <label for="">Email</label>
+                  <input type="text" readonly  value="besongdilan@gmail.com"/>
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </p>
+                
+                <p>
+                  <label for="">Amount</label>
+                  <input type="text" readonly  value="5400">
+                  <i class="fa fa-credit-card" aria-hidden="true"></i>
+                </p>
+              
+                 <p>
+                    <label for="">choose level</label>
+                   <select name="" id="" required>
+                   <option value="100"> 100 level </option>
+                   <option value="200"> 200 level </option>
+                   <option value="300"> 300 level </option>
+                   <option value="400"> 400 level </option>
+                   <option value="500"> 500 level </option>
+                </select>
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                 </p>
+               <p> <button>submit</button></p>
+              </form>
+          </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- <div class="See_post">
+
+             <article class="postCard">
+                <div class="suggestions">suggestions</div>
+                <div class="mainCard">
+                  <header class="cardheader">
+                    <div class="user_info">
+                      <img src="esutlogo.jpg" alt="esutlogo" />
+                     <div class="username_and_date"> 
+                       <span>@ DilanBesong</span>
+                       <span>8 march</span> 
+                    </div>
+                     
+                    </div>
+                    <div>
+                      <ul class="modify_post">
+                         <li>Edit</li>
+                         <li>Delete</li>
+                      </ul>
+                    </div>
+                  </header>
+                  <p id="postText">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis mollitia modi fuga assumenda, omnis rerum dicta nam
+                    aspernatur blanditiis? Laborum eum placeat molestiae magnam
+                    quos praesentium in ex, eos facilis.
+                  </p>
+                  <div class="fileGrid filegrid_1">
+                      <div>1</div>
+                      <div>2</div>
+                      <div>3</div>
+                  </div>
+                  <div class="number_of_comments">2.2K Comments</div>
+                  <section class="post_reactions">
+                   <span>&#10084 Love 100K</span>
+                   <span>&#128172 Comment</span>
+                   <span> &#x1f441 100k views </span>
+                 </section>
+                 <section class="post_comments">
+                     <div class="main_comment_form">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="type..."></textarea>
+                        <button>comment</button>
+                     </div>
+                     <div class="all_comments">
+                         <article class="comment_card">
+                           <div class="comment_header">
+                              <img src="esutlogo.jpg" alt="esutlogo"/>
+                              <span>@Dilan</span>
+                           </div>
+                           <div class="comment_body">
+                              <p>Hello this is my comment</p>
+                             <div class="reactions">
+                               <span>Reply</span>
+                               <span>Edit</span>
+                               <span>Delete</span>
+                               <span>Like 100k</span>
+                             </div>
+                             <div class="reactions">
+                               <span>save</span>
+                               <span>cancel</span>
+                             </div>
+                           </div>
+                           <div class="main_comment_form">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="reply..."></textarea>
+                                <button>comment</button>
+                           </div>
+                         </article>
+
+
+                       <article class="comment_card">
+                           <div class="comment_header">
+                              <img src="esutlogo.jpg" alt="esutlogo"/>
+                              <span>@Dilan</span>
+                           </div>
+                           <div class="comment_body">
+                              <p>Hello this is my comment</p>
+                             <div class="reactions">
+                               <span>Reply</span>
+                               <span>Edit</span>
+                               <span>Delete</span>
+                               <span>&#10084 Like 100k</span>
+                             </div>
+                             <div class="reactions">
+                               <span>save</span>
+                               <span>cancel</span>
+                             </div>
+                           </div>
+                           <div class="main_comment_form">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="reply..."></textarea>
+                                <button>comment</button>
+                           </div>
+                         </article>
+
+                     </div>
+                 </section>
+                </div>
+              </article>
+          </div> -->
+
+
+
+
+
+
+
+<!-- 
+        <div class="Create_post">
+            <form class="createPost" autocomplete="off">
+                 <h3>Create Post</h3>
+                 <div class="poster_profile">
+                    <img src="esutlogo.jpg" alt="esutlogo"/>
+                      <div>
+                         <span>Dilan Besong</span>
+                         <input list="data-list" value="public"/>
+                         <datalist id="data-list">
+                            <option   value="public"></option>
+                            <option value="private"></option>
+                            <option value="status"></option>
+                         </datalist>
+                      </div>
+                 </div>
+                 <textarea 
+                  maxlength="500"
+                  placeholder="Enter text or paste link"></textarea>
+                  <div class="choose_file">
+                     <input type="file" id="file"/>
+                      <label for="file">Upload &#128462</label>
+                      <input readonly type="text" value="50"/>
+                  </div>
+                  <button type="button">Preview &#9113</button>
+                </form>
+
+
+           <article class="postCard">
+                <div class="mainCard">
+                  <header class="cardheader">
+                    <div class="user_info">
+                      <img src="esutlogo.jpg" alt="esutlogo" />
+                      <span>@DilanBesong</span>
+                    </div>
+                    <span class="x-close">&times;</span>
+                  </header>
+                  <p id="postText">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis mollitia modi fuga assumenda, omnis rerum dicta nam
+                    aspernatur blanditiis? Laborum eum placeat molestiae magnam
+                    quos praesentium in ex, eos facilis.
+                  </p>
+                  <div class="fileGrid filegrid_1">
+                      <div>1</div>
+                  </div>
+                <div class="number_of_comments">0 Comments</div>
+                  <section class="post_reactions">
+                   <span>&#10084 Love 0k</span>
+                   <span>&#128172 Comment</span>
+                   <span> &#x1f441 0 views </span>
+                 </section>
+                </div>
+              </article>
+        </div> -->
+        
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="Update_profile">
+             <div class="update_list">
+
+                <p class="profile_info">
+                   <img src="esutlogo.jpg" alt="esutlogo"/>
+                </p>
+
+                 <p>
+                   <span>Username :</span> 
+                   <input type="text" value="Dilan Besong"/>
+                   <i class=" fa fa-user-o" aria-hidden="true"></i>
+                  </p>
+
+                 <p>
+                   <span >Email address :</span> 
+                   <input type="email" value="besongdilan@gmail.com"/>
+                   <i class="fa fa-envelope" aria-hidden="true"></i>
+                  </p>
+
+                <p>
+                   <span>Reg number :</span> 
+                   <input type="text" value="2019030187292"/>
+                   <i class="fa fa-code" aria-hidden="true"></i>
+                  </p>
+
+                 <p>
+                   <span>Background profile :</span> 
+                   <input  type="file" id="file"/> 
+                   <i class="fa fa-picture-o" aria-hidden="true"></i>
+                  </p>
+
+                <p>
+                  <span>Profile picture :</span>
+                   <input  type="file" id="file"/> 
+                  <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                </p>
+
+                <p>
+                  <span>Student Level :</span> 
+                  <input type="text" readonly value="500"/>
+                   <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                </p>
+
+                <p>
+                  <span>Phone Number :</span> 
+                  <input type="tel" value="0706872214"/> 
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                </p>
+
+                <p>
+                  <span>Nickname :</span> 
+                  <input type="text" value="@DilanBesong"/>
+                  <i class=" fa fa-user-md" aria-hidden="true"></i>
+                </p>
+
+                <p><button>Edit &#9998</button></p>
+             </div>   
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <div class="Img_map">
+          <span><i class="fa fa-map-marker" aria-hidden="true"></i> CEE local</span>
+           <div id="esut_map">esut map</div>
+           <span><i class="fa fa-photo" aria-hidden="true"></i> CEE Gallery</span>
+           <section class="imageContent">
+             <button class="btn_left"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+             <button class="btn_right"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+               <div class="imgSlider">
+                   <article class="fileContainer">1</article>
+                   <article class="fileContainer">1</article>
+                   <article class="fileContainer">1</article>
+               </div>
+           </section>
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="View_search">
+            <nav class="search_nav">
+              <p> <h4>Find friends</h4> </p>
+              <p> 
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="search" placeholder="find classmates/friends"/>
+               </p>
+              </nav>
+              <div class="searchList">
+
+                 <article class="sugg_card card_width">
+                        <div class="sugg_img">
+                           <img src="esutlogo.jpg" alt="esutlogo"/>
+                           <p>Dilan Besong</p>
+                            <p>2 mutual mates</p>
+                        </div>
+                         <div class="sugg_btns">
+                            <button style="background-color: #ccc;">
+                              Friends <i class="fa fa-user" aria-hidden="true"></i>
+                             </button>
+                         </div>
+                  </article> 
+
+                   <article class="sugg_card card_width">
+                        <div class="sugg_img">
+                           <img src="esutlogo.jpg" alt="esutlogo"/>
+                           <p>Dilan Besong</p>
+                            <p>2 mutual mates</p>
+                        </div>
+                         <div class="sugg_btns">
+                            <button>Accept</button>
+                            <button>Decline</button>
+                         </div>
+                  </article> 
+                   <article class="sugg_card card_width">
+                        <div class="sugg_img">
+                           <img src="esutlogo.jpg" alt="esutlogo"/>
+                           <p>Dilan Besong</p>
+                            <p>2 mutual mates</p>
+                        </div>
+                         <div class="sugg_btns">
+                            <button>Accept</button>
+                            <button>Decline</button>
+                         </div>
+                  </article> 
+                   <article class="sugg_card card_width">
+                        <div class="sugg_img">
+                           <img src="esutlogo.jpg" alt="esutlogo"/>
+                           <p>Dilan Besong</p>
+                            <p>2 mutual mates</p>
+                        </div>
+                         <div class="sugg_btns">
+                            <button style="background-color: #ccc;">
+                              Friends <i class="fa fa-user" aria-hidden="true"></i>
+                             </button>
+                         </div>
+                  </article> 
+
+                   <article class="sugg_card card_width">
+                        <div class="sugg_img">
+                           <img src="esutlogo.jpg" alt="esutlogo"/>
+                           <p>Dilan Besong</p>
+                            <p>2 mutual mates</p>
+                        </div>
+                         <div class="sugg_btns">
+                            <button>Accept</button>
+                            <button>Decline</button>
+                         </div>
+                  </article> 
+
+              </div>
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </section>
+
+      <section class="right_side" id="right">
+        <span><i class="fa fa-map-marker" aria-hidden="true"></i> CEE Local</span>
+        <div id="Schoolmap">
+           <img src="./images/map.jpg" alt="" srcset=""/>
+        </div>
+         <span><i class="fa fa-photo" aria-hidden="true"></i> CEE Gallery</span>
+         <section class="imageContent">
+             <button class="btn_left"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+             <button class="btn_right"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+               <div class="imgSlider">
+                   <article class="fileContainer">
+                        <img src="./images/img1.jpg" alt=""/>
+                   </article>
+                   <article class="fileContainer">2</article>
+                   <article class="fileContainer">3</article>
+               </div>
+           </section>
+
+     
+      </section>
+    </main>
+  </body>
+</html>

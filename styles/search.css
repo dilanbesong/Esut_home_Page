@@ -1,0 +1,30 @@
+.search_nav {
+   display: flex; 
+   gap: 4px; 
+   align-items: center;
+   padding-left: 4px;
+   background-color: var(--color_white); 
+   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);             
+}
+.search_nav p input {
+   outline:none;
+   border: 1px solid #ccc;
+   text-indent: 4px;
+   border-radius: 10px;
+   width: 250px;
+   height: 25px;              
+}
+.searchList {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 6px; 
+    flex-wrap: wrap;
+    margin-top: 1rem;            
+}
+.card_width {
+   width: 320px;
+   align-self: center;
+   box-shadow: 0 0 8px rgba(0, 0, 0, 0.45);              
+}
